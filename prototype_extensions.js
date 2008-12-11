@@ -127,3 +127,8 @@ Element.addMethods({
   },  
 });
 
+document.onReady = function(f) {
+  document.observe('dom:loaded', f);  
+}
+
+
